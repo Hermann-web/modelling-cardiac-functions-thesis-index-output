@@ -1,0 +1,44 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... testing
+Experiment Name......................... pde_inverse_training
+Seed.................................... 1234
+Project................................. fhncardiac2d
+Mode.................................... fnn
+N Samples............................... 4
+Sample Visualization Count.............. 10
+Save Data Archive....................... True
+Split Ratio............................. 0.8
+Noise Level............................. 0.01
+Observation Noise Level................. 0.0
+Observation Event Noise Mode............ none
+Observation Event Noise Level........... 0.0
+N Sensors............................... 3
+Observation Mode........................ default
+N Refs.................................. 1
+Active Params........................... a,d,gamma
+Physics Preset.......................... Kaba2022High2D
+Grid Profile............................ full
+Param Radius Pct........................ 1.0
+Epochs.................................. 1
+Learning Rate........................... 0.001
+Batch Size.............................. 1
+Physics Weight.......................... 0.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. mlp
+Hidden Dim.............................. 8
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... reference_delta
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/manual/project-smokes/fhncardiac2d-dataset-noise/fhncardiac2d-dataset-noise-reference-delta
+Torch Version........................... 2.11.0+cu128
+Cuda Available.......................... False
+Device.................................. cpu
+
+============================================================

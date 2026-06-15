@@ -1,0 +1,10 @@
+run_name	project	inverse_formulation	n_refs	observation_noise_level	train_total_loss	test_total_loss	train_mae	test_mae	train_physics_loss	test_physics_loss
+poisson1d-absolute	poisson1d	absolute	0	0.0	1.732344	2.152189	0.9831343	1.190264	0.6899713	0.8571986
+poisson1d-absolute-explicit-nrefs0	poisson1d	absolute	0	0.0	1.732344	2.152189	0.9831343	1.190264	0.6899713	0.8571986
+poisson1d-reference-delta	poisson1d	reference_delta	1	0.0	1.597898	2.042792	0.9255346	1.131321	0.6740811	0.8617696
+poisson1d-reference-delta-explicit-nrefs1	poisson1d	reference_delta	1	0.0	1.597898	2.042792	0.9255346	1.131321	0.6740811	0.8617696
+poisson1d-reference-delta-observed	poisson1d	reference_delta	1	0.01	1.390023	2.297021	0.8520139	1.193367	0.5887941	0.9729908
+activation1d-absolute-observed	activation1d	absolute	0	0.01	1.853212	2.38491	0.49618531	0.61422432	0.7843385	1.092233
+activation1d-reference-delta-observed	activation1d	reference_delta	1	0.01	2.090312	2.696533	0.5550864099999999	0.62837842	0.9974735	1.210924
+fhn1d-absolute	fhn1d	absolute	0	0.0	1.021152	1.731558	0.235020189	0.514127997	0.0003954195	0.0003044512
+fhn1d-reference-delta	fhn1d	reference_delta	1	0.0	1.376094	1.679714	0.322440912	0.51507792	0.0003801794	0.000337291

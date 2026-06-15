@@ -1,0 +1,42 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... testing
+Experiment Name......................... pde_inverse_training
+Seed.................................... 1234
+Project................................. fhn1d
+Mode.................................... fnn
+N Samples............................... 8
+Sample Visualization Count.............. 10
+Save Data Archive....................... True
+Split Ratio............................. 0.8
+Noise Level............................. 0.0
+Observation Noise Level................. 0.0
+Observation Event Noise Mode............ none
+Observation Event Noise Level........... 0.0
+N Sensors............................... 0
+Observation Mode........................ default
+N Refs.................................. 1
+Physics Preset.......................... default
+Grid Profile............................ full
+Epochs.................................. 1
+Learning Rate........................... 0.001
+Batch Size.............................. 4
+Physics Weight.......................... 1.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. mlp
+Hidden Dim.............................. 8
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... reference_delta
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/manual/inverse-formulation-smokes/fhn1d-reference-delta
+Torch Version........................... 2.11.0+cu128
+Cuda Available.......................... True
+Device.................................. cuda
+
+============================================================

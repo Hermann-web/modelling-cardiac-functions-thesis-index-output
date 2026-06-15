@@ -1,0 +1,7 @@
+preset=Kaba2022High2D
+center_point=(50.000000, 50.000000)
+explicit_onset_time_threshold_0.01=141.1
+reference_onset_time_threshold_0.01=140.8
+explicit_activation_time_threshold_0.5=169.5
+reference_activation_time_threshold_0.5=169.10000000000002
+center_trace_mae=0.0012558065693032386

@@ -1,0 +1,32 @@
+{
+  "experiment_name": "lando1d-locality-default-e100-n128-strong-ms2",
+  "project": "lando1d",
+  "physics_preset": null,
+  "active_params": [
+    "alpha",
+    "beta",
+    "gamma"
+  ],
+  "model_name": "fnobase",
+  "seed": 1235,
+  "n_refs": 0,
+  "n_sensors": 0,
+  "param_radius_pct": -1.0,
+  "noise_level": 0.0,
+  "observation_noise_level": 0.0,
+  "n_samples": 128,
+  "epochs": 100,
+  "learning_rate": 0.001,
+  "batch_size": 16,
+  "hidden_dim": 20,
+  "physics_weight": 1.0,
+  "physics_weight_warmup_epochs": 0,
+  "data_weight": 1.0,
+  "params_weight": 1.0,
+  "best_model_monitor": "mae",
+  "residual_form": "strong",
+  "weak_residual_n_modes": 10,
+  "split_ratio": 0.8,
+  "observation_keep_ratio": 1.0,
+  "max_samples": -1
+}

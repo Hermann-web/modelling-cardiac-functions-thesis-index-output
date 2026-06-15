@@ -1,0 +1,20 @@
+Model does not have a summary method, using torchsummary.
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv1d-1              [32, 128, 25]           1,408
+              ReLU-2              [32, 128, 25]               0
+            Conv1d-3              [32, 100, 25]          64,100
+ AdaptiveAvgPool1d-4               [32, 100, 1]               0
+           Flatten-5                  [32, 100]               0
+            Linear-6                    [32, 2]             202
+================================================================
+Total params: 65,710
+Trainable params: 65,710
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 2.22
+Params size (MB): 0.25
+Estimated Total Size (MB): 2.48
+----------------------------------------------------------------

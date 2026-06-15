@@ -1,0 +1,24 @@
+{
+  "observation_mode": "event_traces",
+  "n_sensors": 8,
+  "train": {
+    "sample_count": 102,
+    "feature_count": 1024,
+    "active_fraction": 0.007592294730392157,
+    "active_entries_per_sample_mean": 7.7745098039215685,
+    "first_active_flat_index_mean": 49.450980392156865,
+    "active_fraction_gt_0p5": 0.007592294730392157,
+    "active_entries_per_sample_mean_gt_0p5": 7.7745098039215685,
+    "first_active_flat_index_mean_gt_0p5": 49.450980392156865
+  },
+  "test": {
+    "sample_count": 26,
+    "feature_count": 1024,
+    "active_fraction": 0.007624699519230769,
+    "active_entries_per_sample_mean": 7.8076923076923075,
+    "first_active_flat_index_mean": 50.57692307692308,
+    "active_fraction_gt_0p5": 0.007624699519230769,
+    "active_entries_per_sample_mean_gt_0p5": 7.8076923076923075,
+    "first_active_flat_index_mean_gt_0p5": 50.57692307692308
+  }
+}

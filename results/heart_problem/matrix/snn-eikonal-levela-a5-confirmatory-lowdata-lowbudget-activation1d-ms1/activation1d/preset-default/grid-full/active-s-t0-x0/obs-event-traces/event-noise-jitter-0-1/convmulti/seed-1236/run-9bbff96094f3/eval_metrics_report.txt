@@ -1,0 +1,29 @@
+Execution Time Report
+======================
+Training Time: 1.1519 seconds
+Evaluation Time: 0.0324 seconds
+
+Mean Absolute Error (MAE) Report with Std Dev
+===========================================
+
+P MAE:
+Train:
+  s: mean = 3.128925e-03, std = 1.837363e-03
+  t0: mean = 4.476655e-04, std = 2.666690e-04
+  x0: mean = 2.548233e-03, std = 1.157438e-03
+Test:
+  s: mean = 5.024881e-03, std = 3.182825e-03
+  t0: mean = 2.172726e-04, std = 1.156234e-04
+  x0: mean = 2.941620e-03, std = 6.085199e-04
+
+Train Losses:
+  Data Loss           : 6.382959e-01
+  Physics Loss        : 1.290015e-03
+  Total Loss          : 6.382959e-01
+  Actual Physics Residual : 2.053738e-10
+
+Test Losses:
+  Data Loss           : 6.664992e-01
+  Physics Loss        : 3.466490e-03
+  Total Loss          : 6.664992e-01
+  Actual Physics Residual : 2.212605e-10

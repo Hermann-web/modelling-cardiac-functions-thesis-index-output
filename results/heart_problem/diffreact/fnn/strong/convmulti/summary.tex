@@ -1,0 +1,28 @@
+\documentclass[border=8pt, multi, tikz]{standalone}
+\usepackage{import}
+\subimport{../../layers/}{init}
+\usetikzlibrary{positioning}
+
+\def\ConvColor{rgb:yellow,5;red,2.5;white,5}
+\def\ConvReluColor{rgb:yellow,5;red,5;white,5}
+\def\PoolColor{rgb:red,1;black,0.3}
+\def\FcColor{rgb:blue,5;red,2.5;white,5}
+\def\FcReluColor{rgb:blue,5;red,5;white,4}
+\def\SoftmaxColor{rgb:magenta,5;black,7}
+\def\TanhColor{rgb:green,5;black,3}
+
+\begin{document}
+\begin{tikzpicture}
+\tikzstyle{connection}=[ultra thick,every node/.style={sloped,allow upside down},draw=\edgecolor,opacity=0.7]
+\pic at (0,0,0) {Box={name=input, caption=Input, xlabel={}{"2"}, zlabel=625, fill=\ConvColor, height=40, width=2, depth=40};
+\pic[shift={(3.0,0,0)}] at (input-east) {RightBandedBox={name=layer0, xlabel={}{"128"}, zlabel=625, fill=\ConvColor, bandfill=\ConvReluColor, height=38, width=14.8, depth=40};}
+\draw [connection] (input-east) -- (layer0-west);
+\pic[shift={(3.0,0,0)}] at (layer0-east) {RightBandedBox={name=layer2, xlabel={}{"20"}, zlabel=625, fill=\ConvColor, bandfill=\ConvReluColor, height=38, width=4.0, depth=40};}
+\draw [connection] (layer0-east) -- (layer2-west);
+\pic[shift={(3.0,0,0)}] at (layer2-east) {Box={name=layer3, xlabel={}{"20"}, zlabel=1, fill=\PoolColor, height=38, width=2, depth=8};}
+\draw [connection] (layer2-east) -- (layer3-west);
+\pic[shift={(3.0,0,0)}] at (layer3-east) {RightBandedBox={name=layer5, caption=Output, xlabel={}{"2"}, fill=\FcColor, bandfill=\FcReluColor, height=30, width=2, depth=2};}
+\draw [connection] (layer3-east) -- (layer5-west);
+
+\end{tikzpicture}
+\end{document}

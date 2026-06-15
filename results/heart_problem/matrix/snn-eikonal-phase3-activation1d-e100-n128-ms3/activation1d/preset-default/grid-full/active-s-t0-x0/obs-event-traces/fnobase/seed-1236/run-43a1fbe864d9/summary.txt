@@ -1,0 +1,2 @@
+Model has a summary method, displaying it:
+FNOBaseModel(components=200, input_dim=128, output_dim=3, hidden_dim=20, n_layers=4, n_modes=(16,), trainable_params=29323)

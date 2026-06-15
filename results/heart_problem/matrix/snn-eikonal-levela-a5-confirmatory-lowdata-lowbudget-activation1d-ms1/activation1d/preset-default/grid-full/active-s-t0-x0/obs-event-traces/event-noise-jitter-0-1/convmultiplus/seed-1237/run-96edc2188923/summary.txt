@@ -1,0 +1,41 @@
+Model does not have a summary method, using torchsummary.
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv1d-1              [32, 64, 128]           1,664
+              GELU-2              [32, 64, 128]               0
+         GroupNorm-3              [32, 64, 128]             128
+            Conv1d-4              [32, 64, 128]          12,352
+              GELU-5              [32, 64, 128]               0
+         GroupNorm-6              [32, 64, 128]             128
+            Conv1d-7              [32, 64, 128]          12,352
+              GELU-8              [32, 64, 128]               0
+         GroupNorm-9              [32, 64, 128]             128
+           Conv1d-10              [32, 64, 128]           4,160
+             GELU-11              [32, 64, 128]               0
+        GroupNorm-12              [32, 64, 128]             128
+           Conv1d-13              [32, 20, 128]           1,300
+             GELU-14              [32, 20, 128]               0
+AdaptiveAvgPool1d-15                 [32, 4, 8]               0
+AdaptiveAvgPool1d-16                [32, 20, 8]               0
+AdaptiveMaxPool1d-17                [32, 20, 8]               0
+AdaptiveAvgPool1d-18                [32, 20, 1]               0
+AdaptiveMaxPool1d-19                [32, 20, 1]               0
+        LayerNorm-20                  [32, 392]             784
+           Linear-21                   [32, 80]          31,440
+        LayerNorm-22                   [32, 80]             160
+             GELU-23                   [32, 80]               0
+           Linear-24                   [32, 40]           3,240
+        LayerNorm-25                   [32, 40]              80
+             GELU-26                   [32, 40]               0
+           Linear-27                    [32, 3]             123
+================================================================
+Total params: 68,167
+Trainable params: 68,167
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.06
+Forward/backward pass size (MB): 25.53
+Params size (MB): 0.26
+Estimated Total Size (MB): 25.85
+----------------------------------------------------------------

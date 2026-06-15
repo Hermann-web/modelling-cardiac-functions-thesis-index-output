@@ -1,0 +1,18 @@
+{
+  "observation_mode": "event_traces",
+  "n_sensors": 4,
+  "train": {
+    "sample_count": 102,
+    "feature_count": 512,
+    "active_fraction": 1.0,
+    "active_entries_per_sample_mean": 512.0,
+    "first_active_flat_index_mean": 0.0
+  },
+  "test": {
+    "sample_count": 26,
+    "feature_count": 512,
+    "active_fraction": 1.0,
+    "active_entries_per_sample_mean": 512.0,
+    "first_active_flat_index_mean": 0.0
+  }
+}

@@ -1,0 +1,43 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... 2026-05-26T16:56:56.908955
+Experiment Name......................... snn-eikonal-levelA-a5-confirmatory-lowdata-lowbudget-activation1d-ms1
+Seed.................................... 1237
+Project................................. activation1d
+Mode.................................... fnn
+N Samples............................... 32
+Split Ratio............................. 0.8
+Noise Level............................. 0.0
+Observation Noise Level................. 0.0
+Observation Event Noise Mode............ jitter
+Observation Event Noise Level........... 0.1
+Observation Keep Ratio.................. 1.0
+N Sensors............................... 4
+Observation Mode........................ event_traces
+N Refs.................................. 0
+Active Params........................... s,t0,x0
+Physics Preset.......................... default
+Grid Profile............................ full
+Param Radius Pct........................ 1.0
+Epochs.................................. 5
+Learning Rate........................... 0.001
+Batch Size.............................. 16
+Physics Weight.......................... 0.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. snn
+Hidden Dim.............................. 20
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... absolute
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/matrix/snn-eikonal-levela-a5-confirmatory-lowdata-lowbudget-activation1d-ms1/activation1d/preset-default/grid-full/active-s-t0-x0/obs-event-traces/event-noise-jitter-0-1/snn/seed-1237/run-67a185a79d3c
+Torch Version........................... 2.12.0.dev20260408+cu128
+Cuda Available.......................... True
+Device.................................. cuda
+
+============================================================

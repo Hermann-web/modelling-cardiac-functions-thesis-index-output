@@ -1,0 +1,77 @@
+Model does not have a summary method, using torchsummary.
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Linear-1                   [32, 20]         180,020
+            Linear-2                   [32, 20]         180,020
+              ReLU-3                   [32, 20]               0
+              ReLU-4                   [32, 20]               0
+         Unflatten-5                [32, 1, 20]               0
+         Unflatten-6                [32, 1, 20]               0
+            Conv1d-7                [32, 5, 20]              20
+            Conv1d-8                [32, 5, 20]              20
+              ReLU-9                [32, 5, 20]               0
+             ReLU-10                [32, 5, 20]               0
+           Conv1d-11                [32, 1, 20]              16
+           Conv1d-12                [32, 1, 20]              16
+             ReLU-13                [32, 1, 20]               0
+             ReLU-14                [32, 1, 20]               0
+          Flatten-15                   [32, 20]               0
+          Flatten-16                   [32, 20]               0
+             ReLU-17                   [32, 20]               0
+             ReLU-18                   [32, 20]               0
+           Linear-19                    [32, 1]              21
+           Linear-20                    [32, 1]              21
+     ConvMLPModel-21                    [32, 1]               0
+           Linear-22                   [32, 20]         180,020
+           Linear-23                   [32, 20]         180,020
+             ReLU-24                   [32, 20]               0
+             ReLU-25                   [32, 20]               0
+        Unflatten-26                [32, 1, 20]               0
+        Unflatten-27                [32, 1, 20]               0
+           Conv1d-28                [32, 5, 20]              20
+           Conv1d-29                [32, 5, 20]              20
+             ReLU-30                [32, 5, 20]               0
+             ReLU-31                [32, 5, 20]               0
+           Conv1d-32                [32, 1, 20]              16
+           Conv1d-33                [32, 1, 20]              16
+             ReLU-34                [32, 1, 20]               0
+             ReLU-35                [32, 1, 20]               0
+          Flatten-36                   [32, 20]               0
+          Flatten-37                   [32, 20]               0
+             ReLU-38                   [32, 20]               0
+             ReLU-39                   [32, 20]               0
+           Linear-40                    [32, 1]              21
+           Linear-41                    [32, 1]              21
+     ConvMLPModel-42                    [32, 1]               0
+           Linear-43                   [32, 20]         180,020
+           Linear-44                   [32, 20]         180,020
+             ReLU-45                   [32, 20]               0
+             ReLU-46                   [32, 20]               0
+        Unflatten-47                [32, 1, 20]               0
+        Unflatten-48                [32, 1, 20]               0
+           Conv1d-49                [32, 5, 20]              20
+           Conv1d-50                [32, 5, 20]              20
+             ReLU-51                [32, 5, 20]               0
+             ReLU-52                [32, 5, 20]               0
+           Conv1d-53                [32, 1, 20]              16
+           Conv1d-54                [32, 1, 20]              16
+             ReLU-55                [32, 1, 20]               0
+             ReLU-56                [32, 1, 20]               0
+          Flatten-57                   [32, 20]               0
+          Flatten-58                   [32, 20]               0
+             ReLU-59                   [32, 20]               0
+             ReLU-60                   [32, 20]               0
+           Linear-61                    [32, 1]              21
+           Linear-62                    [32, 1]              21
+     ConvMLPModel-63                    [32, 1]               0
+================================================================
+Total params: 1,080,462
+Trainable params: 1,080,462
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 1.10
+Forward/backward pass size (MB): 0.50
+Params size (MB): 4.12
+Estimated Total Size (MB): 5.72
+----------------------------------------------------------------

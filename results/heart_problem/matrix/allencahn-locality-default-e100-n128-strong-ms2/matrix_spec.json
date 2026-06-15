@@ -1,0 +1,89 @@
+{
+  "experiment_name": "allencahn-locality-default-e100-n128-strong-ms2",
+  "projects": [
+    {
+      "project": "allencahn",
+      "physics_preset": null,
+      "active_params": [
+        "D",
+        "r"
+      ]
+    }
+  ],
+  "models": [
+    "mlp",
+    "convmlp",
+    "convmlpind",
+    "convmulti",
+    "convmultiplus",
+    "fnobase"
+  ],
+  "seeds": [
+    1234,
+    1235,
+    1236
+  ],
+  "n_refs_values": [
+    0,
+    1
+  ],
+  "param_radius_pct_values": [
+    -1.0
+  ],
+  "n_sensors_values": [
+    0
+  ],
+  "noise_levels": [
+    0.0
+  ],
+  "observation_noise_levels": [
+    0.0
+  ],
+  "n_samples": [
+    128
+  ],
+  "epochs": [
+    100
+  ],
+  "learning_rate": [
+    0.001
+  ],
+  "batch_size": [
+    16
+  ],
+  "hidden_dim": [
+    20
+  ],
+  "physics_weight": [
+    1.0
+  ],
+  "physics_weight_warmup_epochs": [
+    0
+  ],
+  "data_weight": [
+    1.0
+  ],
+  "params_weight": [
+    1.0
+  ],
+  "best_model_monitor": [
+    "mae"
+  ],
+  "residual_form": [
+    "strong",
+    "weak"
+  ],
+  "weak_residual_n_modes": [
+    10
+  ],
+  "split_ratio": [
+    0.8
+  ],
+  "observation_keep_ratio": [
+    1.0
+  ],
+  "output_root": null,
+  "max_samples": [
+    -1
+  ]
+}

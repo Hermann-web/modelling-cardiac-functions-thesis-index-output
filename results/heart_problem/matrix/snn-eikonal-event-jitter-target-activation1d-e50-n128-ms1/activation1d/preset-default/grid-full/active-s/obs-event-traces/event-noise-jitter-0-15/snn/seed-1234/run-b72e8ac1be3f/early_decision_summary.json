@@ -1,0 +1,30 @@
+{
+  "observation_mode": "event_traces",
+  "time_axis_size": 128,
+  "records": [
+    {
+      "fraction": 0.25,
+      "kept_steps": 32,
+      "active_test_mae": 0.006600040337183131,
+      "test_mae": 0.0022000139424330815
+    },
+    {
+      "fraction": 0.5,
+      "kept_steps": 64,
+      "active_test_mae": 0.006587408737463423,
+      "test_mae": 0.002195803409193179
+    },
+    {
+      "fraction": 0.75,
+      "kept_steps": 96,
+      "active_test_mae": 0.006588385336643205,
+      "test_mae": 0.002196128942253106
+    },
+    {
+      "fraction": 1.0,
+      "kept_steps": 128,
+      "active_test_mae": 0.006588385336643205,
+      "test_mae": 0.002196128942253106
+    }
+  ]
+}

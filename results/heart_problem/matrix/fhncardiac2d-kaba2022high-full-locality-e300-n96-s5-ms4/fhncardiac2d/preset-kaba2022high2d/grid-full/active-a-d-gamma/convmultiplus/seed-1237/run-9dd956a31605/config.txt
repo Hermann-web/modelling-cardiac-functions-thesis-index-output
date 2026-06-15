@@ -1,0 +1,45 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... 2026-06-08T17:06:50.609985
+Experiment Name......................... fhncardiac2d-kaba2022high-full-locality-e300-n96-s5-ms4
+Seed.................................... 1237
+Project................................. fhncardiac2d
+Mode.................................... fnn
+N Samples............................... 96
+Sample Visualization Count.............. 0
+Save Data Archive....................... False
+Split Ratio............................. 0.8
+Noise Level............................. 0.0
+Observation Noise Level................. 0.0
+Observation Event Noise Mode............ none
+Observation Event Noise Level........... 0.0
+Observation Keep Ratio.................. 1.0
+N Sensors............................... 5
+Observation Mode........................ default
+N Refs.................................. 1
+Active Params........................... a,d,gamma
+Physics Preset.......................... Kaba2022High2D
+Grid Profile............................ full
+Param Radius Pct........................ 1.0
+Epochs.................................. 300
+Learning Rate........................... 0.001
+Batch Size.............................. 16
+Physics Weight.......................... 0.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. convmultiplus
+Hidden Dim.............................. 20
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... reference_delta
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/matrix/fhncardiac2d-kaba2022high-full-locality-e300-n96-s5-ms4/fhncardiac2d/preset-kaba2022high2d/grid-full/active-a-d-gamma/convmultiplus/seed-1237/run-9dd956a31605
+Torch Version........................... 2.12.0+cu130
+Cuda Available.......................... False
+Device.................................. cpu
+
+============================================================

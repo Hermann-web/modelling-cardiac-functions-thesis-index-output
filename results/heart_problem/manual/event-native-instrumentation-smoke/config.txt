@@ -1,0 +1,39 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... testing
+Experiment Name......................... pde_inverse_training
+Seed.................................... 1234
+Project................................. activation1d
+Mode.................................... fnn
+N Samples............................... 8
+Split Ratio............................. 0.8
+Noise Level............................. 0.0
+Observation Noise Level................. 0.0
+Observation Keep Ratio.................. 1.0
+N Sensors............................... 8
+Observation Mode........................ event_traces
+N Refs.................................. 0
+Physics Preset.......................... default
+Grid Profile............................ full
+Epochs.................................. 1
+Learning Rate........................... 0.001
+Batch Size.............................. 4
+Physics Weight.......................... 0.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. snnplus
+Hidden Dim.............................. 8
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... absolute
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/manual/event-native-instrumentation-smoke
+Torch Version........................... 2.12.0.dev20260325+cu128
+Cuda Available.......................... True
+Device.................................. cuda
+
+============================================================

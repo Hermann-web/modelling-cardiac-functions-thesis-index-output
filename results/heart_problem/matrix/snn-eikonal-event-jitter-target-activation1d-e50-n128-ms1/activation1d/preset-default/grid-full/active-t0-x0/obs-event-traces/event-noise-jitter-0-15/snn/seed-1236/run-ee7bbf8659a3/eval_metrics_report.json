@@ -1,0 +1,42 @@
+{
+    "train_mae": 0.0009894950208000624,
+    "train_rmse": 0.0016571450007925753,
+    "test_mae": 0.0008148615228834369,
+    "test_rmse": 0.001402372803613562,
+    "per_parameter_mae_train": {
+        "s": 0.0,
+        "t0": 0.0005686238759394454,
+        "x0": 0.0023998611864607423
+    },
+    "per_parameter_mae_test": {
+        "s": 0.0,
+        "t0": 0.00043967610269844,
+        "x0": 0.002004908465951871
+    },
+    "per_parameter_rmse_train": {
+        "s": 0.0,
+        "t0": 0.0006308249038964624,
+        "x0": 0.0028000801062790137
+    },
+    "per_parameter_rmse_test": {
+        "s": 0.0,
+        "t0": 0.0005154147167268256,
+        "x0": 0.0023736672283044
+    },
+    "train_data_loss": 1.0039302110671997,
+    "train_physics_loss": 1.0023867152986199e-10,
+    "train_total_loss": 1.0039302110671997,
+    "train_actual_physics_residual": 1.0023444574347451e-10,
+    "test_data_loss": 0.695756196975708,
+    "test_physics_loss": 9.956984542425218e-11,
+    "test_total_loss": 0.695756196975708,
+    "test_actual_physics_residual": 9.955990198928788e-11,
+    "training_time_seconds": 20.805918062000273,
+    "evaluation_time_seconds": 0.31717518500227015,
+    "parameter_names": [
+        "s",
+        "t0",
+        "x0"
+    ],
+    "timestamp": "2026-05-24T20:45:49.035059"
+}

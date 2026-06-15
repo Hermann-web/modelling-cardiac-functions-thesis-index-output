@@ -1,0 +1,20 @@
+{
+  "train": {
+    "event_abs_mean": 0.015625,
+    "event_active_fraction_gt_1e_6": 0.015625,
+    "spike_mean": 0.04117463529109955,
+    "spike_active_fraction_gt_0p5": 0.0041718753054738045,
+    "spike_count_per_sample_mean": 10.679999351501465,
+    "first_spike_flat_index_mean": 394.0,
+    "mem_abs_mean": 0.8562679886817932
+  },
+  "test": {
+    "event_abs_mean": 0.015625,
+    "event_active_fraction_gt_1e_6": 0.015625,
+    "spike_mean": 0.0411529615521431,
+    "spike_active_fraction_gt_0p5": 0.004017857369035482,
+    "spike_count_per_sample_mean": 10.285715103149414,
+    "first_spike_flat_index_mean": 394.0000305175781,
+    "mem_abs_mean": 0.8565112948417664
+  }
+}

@@ -1,0 +1,22 @@
+# Matrix Results
+
+- experiment: `apcardiac1d-shortpulse-r1-xresnet1d50-convmultiplus-ms4`
+- root: `/home/ahlk/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/apcardiac1d-shortpulse-r1-xresnet1d50-convmultiplus-ms4`
+
+## Aggregate Results
+
+| status | project | preset | grid_profile | active_params | observation_mode | model | n_refs | radius_pct | n_sensors | noise | observation_noise | event_noise_mode | event_noise | completed_seeds | expected_seeds | active_test_mae_mean | active_test_mae_std | test_mae_mean | test_mae_std | data_loss_mean | physics_loss_mean | total_loss_mean |
+| --- | --- | --- | --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| complete | apcardiac1d | ShortPulse | coarse20 | a,d,mu1 | default | convmultiplus | 0 | 1 | 0 | 0 | 0 | none | 0 | 1234 | 1234 | 0.0047603628969 | 0 | 0.00238018167197 | 0 | 0.370109736919 | 0 | 0.370109736919 |
+| complete | apcardiac1d | ShortPulse | coarse20 | a,d,mu1 | default | convmultiplus | 1 | 1 | 0 | 0 | 0 | none | 0 | 1234 | 1234 | 0.000499819746284 | 0 | 0.000249910096659 | 0 | 0.00261223060079 | 0 | 0.00261223060079 |
+| complete | apcardiac1d | ShortPulse | coarse20 | a,d,mu1 | default | xresnet1d50 | 0 | 1 | 0 | 0 | 0 | none | 0 | 1234 | 1234 | 0.00462372531106 | 0 | 0.00231186287905 | 0 | 1.61156964302 | 0 | 1.61156964302 |
+| complete | apcardiac1d | ShortPulse | coarse20 | a,d,mu1 | default | xresnet1d50 | 1 | 1 | 0 | 0 | 0 | none | 0 | 1234 | 1234 | 0.00109873424739 | 0 | 0.000549367347214 | 0 | 0.0164169408381 | 0 | 0.0164169408381 |
+
+## Per-Run Results
+
+| status | project | preset | grid_profile | active_params | observation_mode | model | seed | n_refs | radius_pct | n_sensors | noise | observation_noise | event_noise_mode | event_noise | formulation | device | test_mae | active_test_mae | active_params_detected | param1_mae | param2_mae | active_param1_mae | active_param2_mae | data_loss | physics_loss | total_loss | output_dir |
+| --- | --- | --- | --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | ---: | --- | --- | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| complete | apcardiac1d | ShortPulse | coarse20 | a,d,mu1 | default | convmultiplus | 1234 | 0 | 1 | 0 | 0 | 0 | none | 0 | absolute | cpu | 0.00238018167197 | 0.0047603628969 | 0,1,4 | 0.000305797281892 | 0.0119102194995 | 0.000305797281892 | 0.0119102194995 | 0.370109736919 | 0 | 0.370109736919 | /home/ahlk/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/apcardiac1d-shortpulse-r1-xresnet1d50-convmultiplus-ms4/apcardiac1d/preset-shortpulse/grid-coarse20/active-a-d-mu1/convmultiplus/seed-1234/run-d41609f83899 |
+| complete | apcardiac1d | ShortPulse | coarse20 | a,d,mu1 | default | convmultiplus | 1234 | 1 | 1 | 0 | 0 | 0 | none | 0 | reference_delta | cpu | 0.000249910096659 | 0.000499819746284 | 0,1,4 | 2.56013043729e-05 | 0.00133110524534 | 2.56013043729e-05 | 0.00133110524534 | 0.00261223060079 | 0 | 0.00261223060079 | /home/ahlk/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/apcardiac1d-shortpulse-r1-xresnet1d50-convmultiplus-ms4/apcardiac1d/preset-shortpulse/grid-coarse20/active-a-d-mu1/convmultiplus/seed-1234/run-253c1f346aa9 |
+| complete | apcardiac1d | ShortPulse | coarse20 | a,d,mu1 | default | xresnet1d50 | 1234 | 0 | 1 | 0 | 0 | 0 | none | 0 | absolute | cpu | 0.00231186287905 | 0.00462372531106 | 0,1,4 | 0.00128280990199 | 0.00957631339408 | 0.00128280990199 | 0.00957631339408 | 1.61156964302 | 0 | 1.61156964302 | /home/ahlk/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/apcardiac1d-shortpulse-r1-xresnet1d50-convmultiplus-ms4/apcardiac1d/preset-shortpulse/grid-coarse20/active-a-d-mu1/xresnet1d50/seed-1234/run-5e8dfb9de431 |
+| complete | apcardiac1d | ShortPulse | coarse20 | a,d,mu1 | default | xresnet1d50 | 1234 | 1 | 1 | 0 | 0 | 0 | none | 0 | reference_delta | cpu | 0.000549367347214 | 0.00109873424739 | 0,1,4 | 9.7517797758e-05 | 0.00295789413575 | 9.7517797758e-05 | 0.00295789413575 | 0.0164169408381 | 0 | 0.0164169408381 | /home/ahlk/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/apcardiac1d-shortpulse-r1-xresnet1d50-convmultiplus-ms4/apcardiac1d/preset-shortpulse/grid-coarse20/active-a-d-mu1/xresnet1d50/seed-1234/run-6e8c8197b246 |

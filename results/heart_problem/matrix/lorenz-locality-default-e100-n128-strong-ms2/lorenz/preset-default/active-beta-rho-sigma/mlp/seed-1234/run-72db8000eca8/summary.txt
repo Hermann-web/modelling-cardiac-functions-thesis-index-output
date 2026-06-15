@@ -1,0 +1,19 @@
+Model does not have a summary method, using torchsummary.
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Linear-1                   [32, 20]         180,020
+              ReLU-2                   [32, 20]               0
+            Linear-3                   [32, 20]             420
+              ReLU-4                   [32, 20]               0
+            Linear-5                    [32, 3]              63
+================================================================
+Total params: 180,503
+Trainable params: 180,503
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 1.10
+Forward/backward pass size (MB): 0.02
+Params size (MB): 0.69
+Estimated Total Size (MB): 1.81
+----------------------------------------------------------------

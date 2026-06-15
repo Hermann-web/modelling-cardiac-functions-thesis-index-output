@@ -1,0 +1,37 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... 2026-05-11T19:15:51.548236
+Experiment Name......................... nagumo1d-locality-default-e100-n128-strong-ms2
+Seed.................................... 1235
+Project................................. nagumo1d
+Mode.................................... fnn
+N Samples............................... 128
+Split Ratio............................. 0.8
+Noise Level............................. 0.0
+Observation Noise Level................. 0.0
+Observation Keep Ratio.................. 1.0
+N Sensors............................... 0
+N Refs.................................. 1
+Active Params........................... alpha,b,gamma
+Epochs.................................. 100
+Learning Rate........................... 0.001
+Batch Size.............................. 16
+Physics Weight.......................... 1.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. mlp
+Hidden Dim.............................. 20
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... reference_delta
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/matrix/nagumo1d-locality-default-e100-n128-strong-ms2/nagumo1d/preset-default/active-alpha-b-gamma/mlp/seed-1235/run-4280597296cd
+Torch Version........................... 2.12.0.dev20260226+cu128
+Cuda Available.......................... True
+Device.................................. cuda
+
+============================================================

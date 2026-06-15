@@ -1,0 +1,7 @@
+preset=Kaba2022High2D
+grid=101x101
+center_point=(50.000000, 50.000000)
+onset_time_threshold_0.01=117.10000000000001
+depolarization_time_threshold_0.5=139.3
+peak_time=161.60000000000002
+peak_u=0.9436847129163862

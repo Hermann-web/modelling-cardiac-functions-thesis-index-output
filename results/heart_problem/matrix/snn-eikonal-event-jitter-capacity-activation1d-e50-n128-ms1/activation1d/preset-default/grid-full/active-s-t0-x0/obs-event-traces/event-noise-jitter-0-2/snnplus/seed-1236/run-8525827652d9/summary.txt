@@ -1,0 +1,37 @@
+Model does not have a summary method, using torchsummary.
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv1d-1              [32, 64, 128]             576
+            Conv1d-2              [32, 64, 128]          24,832
+              GELU-3              [32, 64, 128]               0
+         GroupNorm-4              [32, 64, 128]             128
+            Conv1d-5              [32, 64, 128]          12,352
+              GELU-6              [32, 64, 128]               0
+         GroupNorm-7              [32, 64, 128]             128
+            Conv1d-8              [32, 64, 128]           4,160
+              GELU-9              [32, 64, 128]               0
+        GroupNorm-10              [32, 64, 128]             128
+AdaptiveAvgPool1d-11                 [32, 8, 8]               0
+AdaptiveAvgPool1d-12                [32, 64, 8]               0
+AdaptiveMaxPool1d-13                [32, 64, 8]               0
+AdaptiveAvgPool1d-14                [32, 64, 1]               0
+AdaptiveMaxPool1d-15                [32, 64, 1]               0
+        LayerNorm-16                 [32, 1216]           2,432
+           Linear-17                  [32, 256]         311,552
+        LayerNorm-18                  [32, 256]             512
+             GELU-19                  [32, 256]               0
+           Linear-20                  [32, 128]          32,896
+        LayerNorm-21                  [32, 128]             256
+             GELU-22                  [32, 128]               0
+           Linear-23                    [32, 3]             387
+================================================================
+Total params: 390,339
+Trainable params: 390,339
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.12
+Forward/backward pass size (MB): 20.88
+Params size (MB): 1.49
+Estimated Total Size (MB): 22.49
+----------------------------------------------------------------

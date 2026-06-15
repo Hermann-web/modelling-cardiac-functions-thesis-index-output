@@ -1,0 +1,38 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... 2026-05-11T01:59:34.882040
+Experiment Name......................... allencahn-default-locality-e300-n256-ms4
+Seed.................................... 1236
+Project................................. allencahn
+Mode.................................... fnn
+N Samples............................... 256
+Split Ratio............................. 0.8
+Noise Level............................. 0.0
+Observation Noise Level................. 0.0
+Observation Keep Ratio.................. 1.0
+N Sensors............................... 0
+N Refs.................................. 1
+Active Params........................... D,r
+Param Radius Pct........................ 5.0
+Epochs.................................. 300
+Learning Rate........................... 0.001
+Batch Size.............................. 16
+Physics Weight.......................... 0.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. convmulti
+Hidden Dim.............................. 20
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... reference_delta
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/matrix/allencahn-default-locality-e300-n256-ms4/allencahn/preset-default/active-d-r/convmulti/seed-1236/run-b0636468eb0f
+Torch Version........................... 2.12.0.dev20260226+cu128
+Cuda Available.......................... True
+Device.................................. cuda
+
+============================================================

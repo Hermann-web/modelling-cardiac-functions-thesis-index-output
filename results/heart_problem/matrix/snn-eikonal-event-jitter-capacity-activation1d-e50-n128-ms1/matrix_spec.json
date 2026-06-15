@@ -1,0 +1,101 @@
+{
+  "experiment_name": "snn-eikonal-event-jitter-capacity-activation1d-e50-n128-ms1",
+  "projects": [
+    {
+      "project": "activation1d",
+      "physics_preset": "default",
+      "grid_profile": "full",
+      "active_params": [
+        "s",
+        "t0",
+        "x0"
+      ]
+    }
+  ],
+  "models": [
+    "convmultiplus",
+    "snnplus"
+  ],
+  "seeds": [
+    1234,
+    1235,
+    1236
+  ],
+  "n_refs_values": [
+    0
+  ],
+  "param_radius_pct_values": [
+    1.0
+  ],
+  "n_sensors_values": [
+    8,
+    12
+  ],
+  "observation_modes": [
+    "event_traces"
+  ],
+  "noise_levels": [
+    0.0
+  ],
+  "observation_noise_levels": [
+    0.0
+  ],
+  "observation_event_noise_modes": [
+    "jitter"
+  ],
+  "observation_event_noise_levels": [
+    0.0,
+    0.03,
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "n_samples": [
+    128
+  ],
+  "epochs": [
+    50
+  ],
+  "learning_rate": [
+    0.001
+  ],
+  "batch_size": [
+    16
+  ],
+  "hidden_dim": [
+    20,
+    64
+  ],
+  "physics_weight": [
+    0.0
+  ],
+  "physics_weight_warmup_epochs": [
+    0
+  ],
+  "data_weight": [
+    1.0
+  ],
+  "params_weight": [
+    1.0
+  ],
+  "best_model_monitor": [
+    "mae"
+  ],
+  "residual_form": [
+    "strong"
+  ],
+  "weak_residual_n_modes": [
+    10
+  ],
+  "split_ratio": [
+    0.8
+  ],
+  "observation_keep_ratio": [
+    1.0
+  ],
+  "output_root": null,
+  "max_samples": [
+    -1
+  ]
+}
