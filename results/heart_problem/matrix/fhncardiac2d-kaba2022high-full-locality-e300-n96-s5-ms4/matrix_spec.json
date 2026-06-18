@@ -90,9 +90,6 @@
   "split_ratio": [
     0.8
   ],
-  "observation_keep_ratio": [
-    1.0
-  ],
   "output_root": null,
   "max_samples": [
     -1

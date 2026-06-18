@@ -1,6 +1,6 @@
 # Export Record
 
-- png: `/home/ubuntu/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/fhncardiac2d-kaba2022high-full-locality-e300-n96-s5-ms4/export/annex05-sensors-not-main-story-convmulti.png`
+- png: `/home/ahlk/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/fhncardiac2d-kaba2022high-full-locality-e300-n96-s5-ms4/export/annex05-sensors-not-main-story-convmulti.png`
 
 ## Equivalent CLI
 
