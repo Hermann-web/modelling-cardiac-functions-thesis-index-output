@@ -1,0 +1,24 @@
+{
+  "observation_mode": "default",
+  "n_sensors": 3,
+  "train": {
+    "sample_count": 76,
+    "feature_count": 140070,
+    "active_fraction": 0.6447878504356844,
+    "active_entries_per_sample_mean": 90315.43421052632,
+    "first_active_flat_index_mean": 2533.0,
+    "active_fraction_gt_0p5": 0.11270981050827969,
+    "active_entries_per_sample_mean_gt_0p5": 15787.263157894737,
+    "first_active_flat_index_mean_gt_0p5": 2980.0
+  },
+  "test": {
+    "sample_count": 20,
+    "feature_count": 140070,
+    "active_fraction": 0.6447422717212823,
+    "active_entries_per_sample_mean": 90309.05,
+    "first_active_flat_index_mean": 2533.0,
+    "active_fraction_gt_0p5": 0.11267866066966517,
+    "active_entries_per_sample_mean_gt_0p5": 15782.9,
+    "first_active_flat_index_mean_gt_0p5": 2980.0
+  }
+}

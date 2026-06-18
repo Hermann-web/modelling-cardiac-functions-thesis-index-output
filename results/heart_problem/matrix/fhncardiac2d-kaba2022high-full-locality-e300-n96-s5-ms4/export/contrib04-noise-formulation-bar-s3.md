@@ -1,6 +1,6 @@
 # Export Record
 
-- png: `/home/ahlk/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/fhncardiac2d-kaba2022high-full-locality-e300-n96-s5-ms4/export/contrib04-noise-formulation-bar-s3.png`
+- png: `/home/ubuntu/Github/thesis/modelling-cardiac-functions-thesis-index/output/results/heart_problem/matrix/fhncardiac2d-kaba2022high-full-locality-e300-n96-s5-ms4/export/contrib04-noise-formulation-bar-s3.png`
 
 ## Equivalent CLI
 
