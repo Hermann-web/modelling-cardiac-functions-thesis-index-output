@@ -1,0 +1,9 @@
+{
+    "fhncardiac2d": {
+        "scipy": {
+            "strong": 6.28231822717303e-12,
+            "weak": null,
+            "energy": null
+        }
+    }
+}
