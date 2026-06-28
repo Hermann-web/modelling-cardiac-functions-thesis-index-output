@@ -7,8 +7,8 @@
     "active_fraction": 1.0,
     "active_entries_per_sample_mean": 200.0,
     "first_active_flat_index_mean": 0.0,
-    "active_fraction_gt_0p5": 0.8533333333333333,
-    "active_entries_per_sample_mean_gt_0p5": 170.66666666666666,
+    "active_fraction_gt_0p5": 0.92,
+    "active_entries_per_sample_mean_gt_0p5": 184.0,
     "first_active_flat_index_mean_gt_0p5": 0.0
   },
   "test": {
@@ -17,8 +17,8 @@
     "active_fraction": 1.0,
     "active_entries_per_sample_mean": 200.0,
     "first_active_flat_index_mean": 0.0,
-    "active_fraction_gt_0p5": 0.93,
-    "active_entries_per_sample_mean_gt_0p5": 186.0,
+    "active_fraction_gt_0p5": 0.925,
+    "active_entries_per_sample_mean_gt_0p5": 185.0,
     "first_active_flat_index_mean_gt_0p5": 0.0
   }
 }

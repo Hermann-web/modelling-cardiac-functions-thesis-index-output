@@ -8,22 +8,22 @@ Mean Absolute Error (MAE) Report with Std Dev
 
 P MAE:
 Train:
-  alpha: mean = 4.102205e-01, std = 2.057932e-01
+  alpha: mean = 4.160841e-01, std = 2.088019e-01
   beta: mean = 0.000000e+00, std = 0.000000e+00
-  gamma: mean = 8.794254e-01, std = 3.176496e-01
+  gamma: mean = 8.889519e-01, std = 3.500245e-01
 Test:
-  alpha: mean = 4.718434e-01, std = 5.294565e-03
+  alpha: mean = 4.729106e-01, std = 2.280736e-02
   beta: mean = 0.000000e+00, std = 0.000000e+00
-  gamma: mean = 6.342890e-01, std = 5.915854e-02
+  gamma: mean = 6.278502e-01, std = 1.347259e-02
 
 Train Losses:
-  Data Loss           : 1.537390e+00
-  Physics Loss        : 1.060942e+00
-  Total Loss          : 2.598332e+00
-  Actual Physics Residual : 1.305157e+01
+  Data Loss           : 1.595336e+00
+  Physics Loss        : 1.666200e+00
+  Total Loss          : 3.261536e+00
+  Actual Physics Residual : 7.106713e+01
 
 Test Losses:
-  Data Loss           : 1.094860e+00
-  Physics Loss        : 2.564032e+00
-  Total Loss          : 3.658893e+00
-  Actual Physics Residual : 9.742352e+01
+  Data Loss           : 1.087732e+00
+  Physics Loss        : 1.710623e+00
+  Total Loss          : 2.798355e+00
+  Actual Physics Residual : 1.066401e+02

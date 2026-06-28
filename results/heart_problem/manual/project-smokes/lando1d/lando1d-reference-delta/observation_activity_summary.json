@@ -4,21 +4,21 @@
   "train": {
     "sample_count": 6,
     "feature_count": 1000,
-    "active_fraction": 1.0,
-    "active_entries_per_sample_mean": 1000.0,
+    "active_fraction": 0.998,
+    "active_entries_per_sample_mean": 998.0,
     "first_active_flat_index_mean": 0.0,
-    "active_fraction_gt_0p5": 0.778,
-    "active_entries_per_sample_mean_gt_0p5": 778.0,
+    "active_fraction_gt_0p5": 0.8226666666666667,
+    "active_entries_per_sample_mean_gt_0p5": 822.6666666666666,
     "first_active_flat_index_mean_gt_0p5": 0.0
   },
   "test": {
     "sample_count": 2,
     "feature_count": 1000,
-    "active_fraction": 1.0,
-    "active_entries_per_sample_mean": 1000.0,
+    "active_fraction": 0.998,
+    "active_entries_per_sample_mean": 998.0,
     "first_active_flat_index_mean": 0.0,
-    "active_fraction_gt_0p5": 0.802,
-    "active_entries_per_sample_mean_gt_0p5": 802.0,
+    "active_fraction_gt_0p5": 0.801,
+    "active_entries_per_sample_mean_gt_0p5": 801.0,
     "first_active_flat_index_mean_gt_0p5": 0.0
   }
 }
