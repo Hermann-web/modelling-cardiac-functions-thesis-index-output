@@ -1,0 +1,10 @@
+{
+  "order": 2,
+  "parameter_names": [
+    "alpha",
+    "gamma"
+  ],
+  "source": "lando1d.fixed_boundary.man2",
+  "has_B": true,
+  "has_basis": false
+}

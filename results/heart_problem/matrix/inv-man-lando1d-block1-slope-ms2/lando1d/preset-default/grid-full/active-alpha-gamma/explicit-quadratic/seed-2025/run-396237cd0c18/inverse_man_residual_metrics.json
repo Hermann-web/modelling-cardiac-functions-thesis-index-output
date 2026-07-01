@@ -1,0 +1,74 @@
+{
+  "train_polynomial_residual": {
+    "mean": 2.8608765124424507e-07,
+    "median": 2.154056705985607e-07,
+    "max": 6.5988669785772e-07,
+    "mse": 1.3448722281355111e-13
+  },
+  "test_polynomial_residual": {
+    "mean": 1.2941700359397938e-07,
+    "median": 1.247231610468673e-07,
+    "max": 2.8966176918100366e-07,
+    "mse": 2.8152978859895118e-14
+  },
+  "train_forward_linear_error": {
+    "mean": 5.465666943568327e-05,
+    "median": 5.0198411404307596e-05,
+    "max": 0.00012931923330143782,
+    "mse": 4.737825532378212e-09
+  },
+  "test_forward_linear_error": {
+    "mean": 2.771667204041942e-05,
+    "median": 2.0849811057730952e-05,
+    "max": 7.63679026884635e-05,
+    "mse": 1.2703086564638872e-09
+  },
+  "train_forward_quadratic_error": {
+    "mean": 2.2259018523594965e-07,
+    "median": 1.790929603511034e-07,
+    "max": 6.19835943286448e-07,
+    "mse": 8.442952742684589e-14
+  },
+  "test_forward_quadratic_error": {
+    "mean": 1.0862649131058686e-07,
+    "median": 9.295453836279957e-08,
+    "max": 2.877583366588729e-07,
+    "mse": 2.0914479670498367e-14
+  },
+  "train_observed_forward_residual": {
+    "mean": 1.0552019567520407e-07,
+    "median": 3.817286856058564e-08,
+    "max": 4.759781252653791e-07,
+    "mse": 3.0017643066912504e-14
+  },
+  "test_observed_forward_residual": {
+    "mean": 2.3466963680690247e-08,
+    "median": 4.043909201974339e-09,
+    "max": 7.893499020947646e-08,
+    "mse": 1.3410400279516181e-15
+  },
+  "train_clean_forward_residual": {
+    "mean": 1.0552019567520407e-07,
+    "median": 3.817286856058564e-08,
+    "max": 4.759781252653791e-07,
+    "mse": 3.0017643066912504e-14
+  },
+  "test_clean_forward_residual": {
+    "mean": 2.3466963680690247e-08,
+    "median": 4.043909201974339e-09,
+    "max": 7.893499020947646e-08,
+    "mse": 1.3410400279516181e-15
+  },
+  "train_observation_noise_floor": {
+    "mean": 0.0,
+    "median": 0.0,
+    "max": 0.0,
+    "mse": 0.0
+  },
+  "test_observation_noise_floor": {
+    "mean": 0.0,
+    "median": 0.0,
+    "max": 0.0,
+    "mse": 0.0
+  }
+}

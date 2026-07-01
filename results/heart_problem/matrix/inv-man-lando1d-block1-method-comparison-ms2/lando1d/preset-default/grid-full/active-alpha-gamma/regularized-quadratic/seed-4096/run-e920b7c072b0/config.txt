@@ -1,0 +1,48 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... 2026-07-01T15:29:23.408659
+Experiment Name......................... inv-man-lando1d-block1-method-comparison-ms2
+Seed.................................... 4096
+Project................................. lando1d
+Mode.................................... inverse_man
+N Samples............................... 32
+Sample Visualization Count.............. 0
+Save Data Archive....................... True
+Split Ratio............................. 0.8
+Noise Level............................. 0.0
+Observation Noise Level................. 0.0001
+Observation Event Noise Mode............ none
+Observation Event Noise Level........... 0.0
+N Sensors............................... 0
+Observation Mode........................ default
+N Refs.................................. 0
+Active Params........................... alpha,gamma
+Physics Preset.......................... default
+Grid Profile............................ full
+Param Radius Pct........................ 2.0
+Inverse Direction Kind.................. diagonal
+Inverse Direction Index................. 0
+Inverse Active Dimension................ 2
+Inverse Regularization Lambda........... 1e-10
+Epochs.................................. 1
+Learning Rate........................... 0.001
+Batch Size.............................. -1
+Physics Weight.......................... 1.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. regularized_quadratic
+Hidden Dim.............................. 8
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... absolute
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/matrix/inv-man-lando1d-block1-method-comparison-ms2/lando1d/preset-default/grid-full/active-alpha-gamma/regularized-quadratic/seed-4096/run-e920b7c072b0
+Torch Version........................... 2.11.0+cu128
+Cuda Available.......................... False
+Device.................................. cpu
+
+============================================================

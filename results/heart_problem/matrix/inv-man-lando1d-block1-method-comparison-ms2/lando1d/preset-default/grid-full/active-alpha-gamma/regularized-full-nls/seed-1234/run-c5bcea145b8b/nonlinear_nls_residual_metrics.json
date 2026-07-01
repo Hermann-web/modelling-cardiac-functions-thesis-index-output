@@ -1,0 +1,38 @@
+{
+  "train_observed_forward_residual": {
+    "mean": 1.3175780860515117e-05,
+    "median": 1.1587337515762544e-07,
+    "max": 9.521893781408563e-05,
+    "mse": 8.840350009079886e-10
+  },
+  "test_observed_forward_residual": {
+    "mean": 8.440505697078186e-07,
+    "median": 1.347789029857169e-07,
+    "max": 3.0742592476612655e-06,
+    "mse": 1.9153177085589895e-12
+  },
+  "train_clean_forward_residual": {
+    "mean": 1.3175780860515117e-05,
+    "median": 1.1587337515762544e-07,
+    "max": 9.521893781408563e-05,
+    "mse": 8.840350009079886e-10
+  },
+  "test_clean_forward_residual": {
+    "mean": 8.440505697078186e-07,
+    "median": 1.347789029857169e-07,
+    "max": 3.0742592476612655e-06,
+    "mse": 1.9153177085589895e-12
+  },
+  "train_observation_noise_floor": {
+    "mean": 0.0,
+    "median": 0.0,
+    "max": 0.0,
+    "mse": 0.0
+  },
+  "test_observation_noise_floor": {
+    "mean": 0.0,
+    "median": 0.0,
+    "max": 0.0,
+    "mse": 0.0
+  }
+}

@@ -1,0 +1,44 @@
+============================================================
+EXPERIMENT CONFIGURATION
+============================================================
+
+Timestamp............................... 2026-07-01T15:37:30.490150
+Experiment Name......................... inv-man-lando1d-block1-method-comparison-ms2
+Seed.................................... 4096
+Project................................. lando1d
+Mode.................................... nonlinear_nls
+N Samples............................... 32
+Sample Visualization Count.............. 0
+Save Data Archive....................... True
+Split Ratio............................. 0.8
+Noise Level............................. 0.0
+Observation Noise Level................. 0.0001
+Observation Event Noise Mode............ none
+Observation Event Noise Level........... 0.0
+N Sensors............................... 0
+Observation Mode........................ default
+N Refs.................................. 0
+Active Params........................... alpha,gamma
+Physics Preset.......................... default
+Grid Profile............................ full
+Param Radius Pct........................ 2.0
+Epochs.................................. 1
+Learning Rate........................... 0.001
+Batch Size.............................. -1
+Physics Weight.......................... 1.0
+Physics Weight Warmup Epochs............ 0
+Data Weight............................. 1.0
+Params Weight........................... 1.0
+Model Name.............................. man_initialized_full_nls
+Hidden Dim.............................. 8
+Best Model Monitor...................... mae
+Residual Form........................... strong
+Weak Residual N Modes................... 10
+Inverse Formulation..................... absolute
+Max Samples............................. -1
+Output Folder........................... output/results/heart_problem/matrix/inv-man-lando1d-block1-method-comparison-ms2/lando1d/preset-default/grid-full/active-alpha-gamma/man-initialized-full-nls/seed-4096/run-ddae6c802c85
+Torch Version........................... 2.11.0+cu128
+Cuda Available.......................... False
+Device.................................. cpu
+
+============================================================

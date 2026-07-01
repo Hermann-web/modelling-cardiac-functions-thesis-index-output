@@ -1,0 +1,20 @@
+{
+  "project": "lando1d",
+  "solver": "preferred",
+  "seed": 2025,
+  "max_nfev": 50,
+  "active_mask": [
+    1,
+    0,
+    1
+  ],
+  "param_names": [
+    "alpha",
+    "beta",
+    "gamma"
+  ],
+  "method_name": "regularized_full_nls",
+  "regularization_lambda": 0.0001,
+  "uses_man_initialization": false,
+  "uses_true_forward_evaluator": true
+}
